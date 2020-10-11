@@ -1,4 +1,4 @@
-# mobilemall
+# supermall
 
 ## Project setup
 ```
