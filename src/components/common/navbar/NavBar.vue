@@ -1,5 +1,6 @@
 <template>
   <div class="nav-bar">
+    <!--slot插槽-->
     <div class="left"><slot name="left"></slot></div>
     <div class="center"><slot name="center"></slot></div>
     <div class="right"><slot name="right"></slot></div>
@@ -13,6 +14,7 @@
 </script>
 
 <style scoped>
+  /*导航栏*/
   .nav-bar {
     display: flex;
     height: 44px;

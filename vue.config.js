@@ -9,6 +9,10 @@ module.exports = {
         'views': '@/views',
       }
     }
+  },
+  //内网穿透
+  devServer: {
+    disableHostCheck: true
   }
 }
 
