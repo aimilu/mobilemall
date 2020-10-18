@@ -21,6 +21,7 @@
       }
     },
     methods: {
+      // 事件总线
       imageLoad() {
         this.$bus.$emit('itemImageLoad')
       },

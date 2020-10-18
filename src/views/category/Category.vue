@@ -126,8 +126,8 @@
     // 组件创建完后调用
     mounted() {
       this.scroll = new BScroll(this.$refs.aaaa, {
-        // probeType: 3,
-        // pullUpLoad: true
+        probeType: 3,
+        pullUpLoad: true
       })
 
       this.scroll.on('scroll', (position) => {
